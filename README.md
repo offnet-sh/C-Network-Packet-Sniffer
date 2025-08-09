@@ -23,5 +23,5 @@ Captures and logs IP packet source and destination addresses in real-time.
 ## Build & Run
 
 ```bash
-gcc simple_sniffer.c -lpcap -o simple_sniffer
-sudo ./simple_sniffer
+gcc packsniff.c -lpcap -o packsniff
+sudo ./packsniff
